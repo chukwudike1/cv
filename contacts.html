@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+  <h3>contacts Information</h3>
+  <address>
+    <a href="mailto:Hello@ogbuagupascal.com"><em>email us</em></a><br>
+    <a href="tel:+2348151075989"><em>call us</em></a><br>
+    You may choose to visit us:<br>
+    2107 A4 layton Utah<br>
+    400653,USA.
+  </address>  
+  <hr>
+  <h3>Sign up for our newsletter</h3>
+  <form enctype="text/plain" action="mailto:chukwudikepascal11@gmail.com" method="post">
+    <div class="form-sample">
+    <label>Your Name:</label><br>
+    <input type="text" name="" value="" required> 
+  </div>
+  <div class="form-sample">
+    <label>phone number:</label><br>
+    <input type="number" name="Your tel no" value="" required>
+</div>
+<div class="form-sample">
+  <label>Email</label><br>
+  <input type="email" name="Your email" value="" required/>
+</div>
+<div class="form-sample">
+    <label>Password <br>(Minimum of 8 characters)</label><br>
+    <input type="password" name="your password" value="" id="myInput" minlength="8" required><br>
+    <input  type="checkbox" onclick= "myFunction()"> Show Password
+</div>
+<br>
+<div class="form-sample">
+  <label>My name:</label>
+  <input type="text" name="email" value="">
+</div>
+<div class="form-sample">
+  <label>Your Message</label> <br>
+  <textarea name="Message" rows="10" cols="30" required></textarea>
+</div>
+<br>
+  <legend>Select your prefered drone</legend>
+  <div>
+    <input type="radio" Id="dronechoice1" value="Swingler" name="drone"/>
+    <label for="dronechoice1">Swingler</label>
+    <input type="radio" id="dronechoice2" value="hell bringer" name="drone"/>
+    <label for="dronechoice2">hell bringer</label>
+    <input type="radio" id="dronechoice3" value="agu" name="drone"/>
+    <label for="dronechoice3">Agu</label>
+  </div>
+  <br>
+<div>
+    <label>Do you want to sign up on our email list?</label>
+    <input type="radio" name="newsletter" value="yes" required>
+    <label for="newslatter1">yes</label>
+    <input type="radio" name="newsletter" value="no">
+    <label for="newslatter">no</label>
+    <div class="form-example">
+    <input type="submit" value="submit">
+  </div>
+</div>
+</form>
+  <!-- <script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script> -->
+ </form>
+</body>
+</html>
